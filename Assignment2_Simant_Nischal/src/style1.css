@@ -1,0 +1,15 @@
+a {
+  color: yellow;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+button {
+  background-color: red;
+}
+
+.bodypart {
+  border: 2px dashed yellow;
+}/*# sourceMappingURL=style1.css.map */

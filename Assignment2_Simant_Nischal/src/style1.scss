@@ -1,0 +1,19 @@
+$buttoncolor: red;
+$bordertype: 2px dashed yellow;
+$cap: uppercase;
+$menucolor:yellow;
+$menuhover: #ffffff;
+
+a {
+  color: $menucolor;
+}
+
+a:hover {
+  color: $menuhover;
+}
+button {
+  background-color: $buttoncolor;
+}
+.bodypart {
+  border: $bordertype;
+}

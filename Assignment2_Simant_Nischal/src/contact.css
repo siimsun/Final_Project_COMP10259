@@ -1,0 +1,91 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #222; 
+    color: #eee; 
+}
+
+
+header {
+    background-image: url('img/header.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: fadeInHeader 1s ease-in-out; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eee; /* Light link color */
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #eee; /* Light heading color */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #ccc; /* Light paragraph text color */
+}
+
+/* Footer styles */
+footer {
+    background-color: #111; /* Dark footer background color */
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Animation for header */
+@keyframes fadeInHeader {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
